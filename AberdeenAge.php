@@ -9,26 +9,26 @@
              $myAge = 19;
 
              if ($myAge >= 16) {
-                 print $name + " can buy specs.";
+                 print "Can buy specs.";
              }
              elseif ($myAge < 16) {
-                 print $name + " cannot by specs.";
+                 print "Cannot by specs.";
              }
 
             if ($myAge >= 18) {
-                print $name + " can buy mugs.";
+                print "Can buy mugs.";
             }
 
             elseif ($myAge < 18) {
-                print $name + " cannot buy mugs.";
+                print "Cannot buy mugs.";
             }
 
             if ($myAge >= 21) {
-                print $name + " can buy sausage rolla.";
+                print "Can buy sausage rolla.";
             }
 
             elseif ($myAge < 21) {
-                print $name + " cannot buy sausage rolls.";
+                print "Cannot buy sausage rolls.";
             }
             ?>
         </p>
