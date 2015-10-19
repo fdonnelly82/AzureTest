@@ -7,16 +7,16 @@
 <body>
     <p>
         <?php
-         $wandedgood = 3;
+         $wandedgood = "mug";
 
         switch ($wandedgood) {
-            case 1:
+            case "mug":
                 echo "You have to be 18 to buy a mug";
                 break;
-            case 2:
+            case "spec":
                 echo "You have to be 16 to buy a spec";
                 break;
-            case 3:
+            case "sausage":
                 echo "You have to be 21 to buy a sausage roll";
                 break;
             default:
