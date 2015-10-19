@@ -15,7 +15,7 @@
                  print $name + " cannot by specs.";
              }
 
-            elseif ($myAge >= 18) {
+            if ($myAge >= 18) {
                 print $name + " can buy mugs.";
             }
 
@@ -23,7 +23,7 @@
                 print $name + " cannot buy mugs.";
             }
 
-            elseif ($myAge >= 21) {
+            if ($myAge >= 21) {
                 print $name + " can buy sausage rolla.";
             }
 
