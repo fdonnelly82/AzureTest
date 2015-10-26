@@ -4,14 +4,13 @@
 </head>
 <body>
 
-    <p1> "Where would you like to say hello?"</p1>
-    <p2>
-        <?php
-            $query = $_GET["query"];
-            $type = $GET_["type"];
-            echo "The query is " .$query . " and the type is " .$type;
-        ?>
-    </p2>
+    <p>"Where would you like to say hello?"</p>
+
+    <p2><a href="ip1302264.azurewebsites.net/helloPrinter.php?query=Earth">Earth</a></p2>
+
+    <p3><a href="ip1302264.azurewebsites.net/helloPrinter.php?query=Mars">Mars</a></p3>
+
+    <p4><a href="ip1302264.azurewebsites.net/helloPrinter?query=Uranus">Uranus</a></p4>
 </body>
 </html>
 /**
