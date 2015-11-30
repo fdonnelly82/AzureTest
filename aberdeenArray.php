@@ -8,15 +8,9 @@
         <?php
         $provisionedActivitty = array("Specs", "Drugs", "Rock and Roll");
 
-        foreach($provisionedActivitty as $x) {
-            print "<p>$x</p>p>";
-        }
 
         $provisionedActivitty[2] = "Hugs";
 
-        foreach($provisionedActivitty as $x) {
-              print "<p>$x</p>p>";
-          }
 
         unset($provisionedActivitty[3]);
 
