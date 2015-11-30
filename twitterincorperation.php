@@ -29,10 +29,3 @@
 </aside>
 </body>
 </html>
-
-/**
- * Created by PhpStorm.
- * User: 1302264
- * Date: 30/11/2015
- * Time: 14:56
- */
